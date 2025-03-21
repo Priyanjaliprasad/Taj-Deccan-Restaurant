@@ -1,0 +1,43 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.navbar .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 12px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #f8b400;
+    color: #000;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
